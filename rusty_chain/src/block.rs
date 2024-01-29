@@ -4,6 +4,7 @@ use serde::{Deserialize, Serialize};
 #[derive(Serialize, Deserialize, Debug)]
 pub struct Block {
     pub index: u32,
+    pub auth: String,
     pub timestamp: u64,
     pub hash: String,
     pub prev_block_hash: String,
@@ -12,9 +13,10 @@ pub struct Block {
 }
 
 impl Block {
-    pub fn new(index: i32, timestamp: u64, prev_block_hash: String, nonce: u64, data: String) -> Self {
+    pub fn new(index: i32, auth: String, timestamp: u64, prev_block_hash: String, nonce: u64, data: String) -> Self {
         Block {
             index,
+            auth,
             timestamp,
             hash: String::new(),
             prev_block_hash,
