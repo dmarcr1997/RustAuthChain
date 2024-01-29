@@ -1,0 +1,11 @@
+C:\Users\dmarc\Documents\Software\Rust\RustAuthChain\rusty_chain\target\debug\deps\libterm-a22f9479a2ecfb60.rmeta: C:\Users\dmarc\.cargo\registry\src\index.crates.io-6f17d22bba15001f\term-0.7.0\src\lib.rs C:\Users\dmarc\.cargo\registry\src\index.crates.io-6f17d22bba15001f\term-0.7.0\src\terminfo\mod.rs C:\Users\dmarc\.cargo\registry\src\index.crates.io-6f17d22bba15001f\term-0.7.0\src\terminfo\searcher.rs C:\Users\dmarc\.cargo\registry\src\index.crates.io-6f17d22bba15001f\term-0.7.0\src\terminfo\parser\compiled.rs C:\Users\dmarc\.cargo\registry\src\index.crates.io-6f17d22bba15001f\term-0.7.0\src\terminfo\parser\names.rs C:\Users\dmarc\.cargo\registry\src\index.crates.io-6f17d22bba15001f\term-0.7.0\src\terminfo\parm.rs C:\Users\dmarc\.cargo\registry\src\index.crates.io-6f17d22bba15001f\term-0.7.0\src\win.rs
+
+C:\Users\dmarc\Documents\Software\Rust\RustAuthChain\rusty_chain\target\debug\deps\term-a22f9479a2ecfb60.d: C:\Users\dmarc\.cargo\registry\src\index.crates.io-6f17d22bba15001f\term-0.7.0\src\lib.rs C:\Users\dmarc\.cargo\registry\src\index.crates.io-6f17d22bba15001f\term-0.7.0\src\terminfo\mod.rs C:\Users\dmarc\.cargo\registry\src\index.crates.io-6f17d22bba15001f\term-0.7.0\src\terminfo\searcher.rs C:\Users\dmarc\.cargo\registry\src\index.crates.io-6f17d22bba15001f\term-0.7.0\src\terminfo\parser\compiled.rs C:\Users\dmarc\.cargo\registry\src\index.crates.io-6f17d22bba15001f\term-0.7.0\src\terminfo\parser\names.rs C:\Users\dmarc\.cargo\registry\src\index.crates.io-6f17d22bba15001f\term-0.7.0\src\terminfo\parm.rs C:\Users\dmarc\.cargo\registry\src\index.crates.io-6f17d22bba15001f\term-0.7.0\src\win.rs
+
+C:\Users\dmarc\.cargo\registry\src\index.crates.io-6f17d22bba15001f\term-0.7.0\src\lib.rs:
+C:\Users\dmarc\.cargo\registry\src\index.crates.io-6f17d22bba15001f\term-0.7.0\src\terminfo\mod.rs:
+C:\Users\dmarc\.cargo\registry\src\index.crates.io-6f17d22bba15001f\term-0.7.0\src\terminfo\searcher.rs:
+C:\Users\dmarc\.cargo\registry\src\index.crates.io-6f17d22bba15001f\term-0.7.0\src\terminfo\parser\compiled.rs:
+C:\Users\dmarc\.cargo\registry\src\index.crates.io-6f17d22bba15001f\term-0.7.0\src\terminfo\parser\names.rs:
+C:\Users\dmarc\.cargo\registry\src\index.crates.io-6f17d22bba15001f\term-0.7.0\src\terminfo\parm.rs:
+C:\Users\dmarc\.cargo\registry\src\index.crates.io-6f17d22bba15001f\term-0.7.0\src\win.rs:

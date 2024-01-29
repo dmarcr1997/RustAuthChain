@@ -1,0 +1,1 @@
+C:\Users\dmarc\Documents\Software\Rust\RustAuthChain\rusty_chain\target\debug\rusty_chain.exe: C:\Users\dmarc\Documents\Software\Rust\RustAuthChain\rusty_chain\src\block.rs C:\Users\dmarc\Documents\Software\Rust\RustAuthChain\rusty_chain\src\blockchain.rs C:\Users\dmarc\Documents\Software\Rust\RustAuthChain\rusty_chain\src\main.rs
