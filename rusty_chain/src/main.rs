@@ -1,9 +1,12 @@
 mod block;
 mod blockchain;
+mod network_layer;
+use std::thread;
 
 use block::Block;
 use blockchain::Blockchain;
 use chrono::prelude::*;
+use network_layer::{start_server, Role};
 
 
 #[macro_export]
@@ -15,13 +18,13 @@ macro_rules! create_block {
 
 fn main() {
     let mut blockchain = Blockchain::new();
-    let genesis_block =  create_block!(0, "Authority1".to_string(), String::new(), 0, String::from("Genesis Block"));
+    let genesis_block =  create_block!(0, "Authority2".to_string(), String::new(), 0, String::from("Genesis Block"));
     blockchain.add_block(genesis_block);
     for i in 1..5 {
         let prev_hash = blockchain.blocks[i as usize - 1].hash.clone();
         let new_block = create_block!(
             i as i32, 
-            "Authority1",
+            "Authority2",
             &prev_hash, 
             i as u64, 
             format!("BlockData-{}", i)
@@ -30,3 +33,11 @@ fn main() {
     }
     blockchain.display();
 }
+
+// fn main() {
+//     let server_thread = thread::spawn(|| {
+//         start_server("localhost:7878");
+//     });
+
+//     server_thread.join().unwrap();
+// } //TODO: BUILD HTTP WRAPPER FOR TCP SO POSTMAN TESTING CAN BE DONE
